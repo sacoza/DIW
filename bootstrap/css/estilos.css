@@ -1,0 +1,62 @@
+/*Fondo*/
+body {
+ background-image: url("https://lh3.googleusercontent.com/7vSGGGOQfEAV1T4LLWePpCVYUCEjMPe1hBfyFnS1ZanaKNOQqR2YwXqfeTr3LwB9RtbeX5Q=w768-h768-n-no-v1");
+ background-repeat: no-repeat;
+ background-size: 100% 88%;
+}
+div.back img{position:absolute;}
+.back{position: relative;}
+
+/*Jumbotron*/
+.title{position: relative;margin: 10% 20% 10% 20%;}
+h1, h2{color:#EEEEEE; font-size: 60px;text-align: center;}
+
+/*Footer*/
+.panel-default{text-align: center;font-family: arial; margin-bottom: 0%;}
+.space{margin: 1% 4% 1% 0%;}
+.panel-body img{margin-bottom: 2%;}
+.dropdown-menu{padding: 10%;}
+.dropdown-menu li{margin-bottom: 4%;}
+.glyphicon-align-justify{font-size: 20px;}
+#burger{ margin-top:-5%;}
+
+.jumbotron-fluid{margin: 10% 20% 30% 20%; padding-top: 2%;text-align: center;  width: 60%;height: 400px;}
+.Jumbotron-fluid li{text-decoration: none;}
+.container{padding-left: 14%; padding-right: 14%;}
+.display-4{margin-bottom: 6%;}
+#input{
+margin-top: 6%;
+margin-bottom: 6%;
+}
+.btn-light{float:right;}
+button a{
+  color: black;
+}
+a:link{
+   text-decoration: none;
+}
+.container button{margin-top: 4%;}
+/*Buscador*/
+.col-sm-7{
+  margin-top: 0.6%;
+  margin-left: -0.8%;
+    margin-right: -0.8%;
+}
+.stylish-input-group .input-group-addon{
+    background: white !important;
+}
+.stylish-input-group .form-control{
+	border-right:0;
+	box-shadow:0 0 0;
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+/*GALERIA*/
+.collapse img{width: 300px; height: 300px;}
+body.galeria{background-image: none;background-color:#565A5C;}
+.containerGaleria{padding-left: 10%; padding-right: 10%; margin-bottom: 10%;}
+.collapse2{margin-bottom: 20%;}
