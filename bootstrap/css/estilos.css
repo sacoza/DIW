@@ -2,17 +2,18 @@
 body {
  background-image: url("https://lh3.googleusercontent.com/7vSGGGOQfEAV1T4LLWePpCVYUCEjMPe1hBfyFnS1ZanaKNOQqR2YwXqfeTr3LwB9RtbeX5Q=w768-h768-n-no-v1");
  background-repeat: no-repeat;
- background-size: 100% 88%;
+ background-size: 100% 80%;
 }
 div.back img{position:absolute;}
 .back{position: relative;}
 
 /*Jumbotron*/
 .title{position: relative;margin: 10% 20% 10% 20%;}
-h1, h2{color:#EEEEEE; font-size: 60px;text-align: center;}
-
+h1, h2{color:#EEEEEE; font-size: 50px;text-align: center;}
+h1{margin-top: 10%;}
+h2{margin-bottom: 10%;}
 /*Footer*/
-.panel-default{text-align: center;font-family: arial; margin-bottom: 0%;}
+.panel-default{text-align: center;font-family: arial; margin-top: 30%;margin-bottom: 0%;}
 .space{margin: 1% 4% 1% 0%;}
 .panel-body img{margin-bottom: 2%;}
 .dropdown-menu{padding: 10%;}
@@ -20,7 +21,7 @@ h1, h2{color:#EEEEEE; font-size: 60px;text-align: center;}
 .glyphicon-align-justify{font-size: 20px;}
 #burger{ margin-top:-5%;}
 
-.jumbotron-fluid{margin: 10% 20% 30% 20%; padding-top: 2%;text-align: center;  width: 60%;height: 400px;}
+.jumbotron-fluid{margin: 0% 20% 2% 20%; padding-top: 2%;text-align: center;  width: 60%;height: 400px;}
 .Jumbotron-fluid li{text-decoration: none;}
 .container{padding-left: 14%; padding-right: 14%;}
 .display-4{margin-bottom: 6%;}
@@ -54,9 +55,23 @@ a:link{
     border:0;
     background:transparent;
 }
-
+.navbar-right{margin-top: -3.6%;}
 /*GALERIA*/
 .collapse img{width: 300px; height: 300px;}
 body.galeria{background-image: none;background-color:#565A5C;}
 .containerGaleria{padding-left: 10%; padding-right: 10%; margin-bottom: 10%;}
 .collapse2{margin-bottom: 20%;}
+
+.col-sm-12{
+  text-align: center;
+  align-items: center;
+}
+.col-sm-3{
+  background-image: url("https://peluqueriaspipol.es/wp-content/uploads/2017/02/peluqueria-y-estetica-valladolid-peluquerias-pipol-11.jpg");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-color: grey;
+  height: 300px;
+margin-left: 6.5%;
+padding-top: 1%;
+}
