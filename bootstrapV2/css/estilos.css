@@ -7,17 +7,19 @@ body {
 div.back img{position:absolute;}
 .back{position: relative;}
 
-/*Jumbotron*/
-.title{position: relative;margin: 10% 20% 10% 20%;}
-h1, h2{color:#EEEEEE; font-size: 50px;text-align: center;}
-h1{margin-top: 10%;}
-h2{margin-bottom: 10%;}
+/*LOGO*/
+.logo{margin-left: 38%; margin: 6% 30% 0% 34%;}
 /*Footer*/
 .panel-default{text-align: center;font-family: arial; margin-top: 52%;margin-bottom: 0%;}
 .space{margin: 1% 4% 1% 0%;}
 .panel-body img{margin-bottom: 2%;}
-.panel-body iframe{float: left;}
+.panel-body iframe{float: left; margin-left: 2%;}
+.contenido{background-color: #565A5C; width: 46%; height: 200px; float: right; margin-right: 2%; text-align: center;}
+.contenido h5{font-size: 20px; padding-top: 1%; color: white;}
+.contenido img{margin-top: 1%; margin-bottom: -4%;}
+.copy{width: 100%;}
 
+/*Jumbotron*/
 .jumbotron-fluid{margin: 0% 20% 6% 20%; padding-top: 2%;text-align: center;  width: 60%;height: 400px;}
 .Jumbotron-fluid li{text-decoration: none;}
 .container{padding-left: 14%; padding-right: 14%;}
@@ -60,24 +62,29 @@ a:link{
 #burger{ margin-top:-5%;}
 /*GALERIA*/
 .collapse img{width: 300px; height: 300px;}
+footer.galleria{margin-top: -40%;}
 body.galeria{background-image: none;background-color:#565A5C;}
-.containerGaleria{padding-left: 10%; padding-right: 10%; margin-bottom: 10%;}
-.collapse2{margin-bottom: 20%;}
+.containerGaleria{padding-left: 10%; padding-right: 10%; margin-top: -40%;}
 
 .col-sm-12{
   text-align: center;
   align-items: center;
 }
 .col-sm-3{
-  background-size: 302px;
+  background-size: 300px;
   background-repeat: no-repeat;
-  background-color: grey;
-  height: 200px;
+  background-color: #565A5C;
+  height: 400px;
   margin-left: 6.5%;
   padding-left: -4%;
 }
-.col-sm-3 img{margin-left: -5.6%;}
-.col-sm-3 p{padding-top: 0%; color: #00ff77; text-align: left; font-size: 18px; margin-top: -70%}
-.contenido{background-color: #565A5C; width: 46%; height: 200px; float: right; margin-right: 2%; text-align: center;}
-.contenido h5{font-size: 20px; padding-top: 5%; color: white;}
-.copy{width: 100%;}
+.col-sm-3 img{margin-left: -5.6%; width: 308px;}
+.col-sm-3 p{padding-top: 0%; color: #EEEEEE; text-align: left; font-size: 21px;margin-top: 3%;}
+
+
+/*info*/
+
+.info{height: 600px;}
+.info iframe{margin-top: 1%;}
+.info p{float: left;margin-left: 4%;}
+.info .telf{float: right;margin-right: 4%;}
